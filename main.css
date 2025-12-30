@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color:rgb(23, 21, 161);
+    padding: 20px 0;
+    color:aliceblue;
+    display: flex;
+    border-bottom: 8px solid #00007b;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    padding: 30px;
+    width: max-content;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+table {
+    width: 20%;
+    margin: auto;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 20px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+input,
+button{
+    padding: 8px;
+}
+
+button {
+    background-color: #027a00;
+    color: #fff;
+    border:none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 9px;
+}
+
+#botao-cancelar{
+    background-color: rgb(226, 1, 1);
+    padding: 9px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-width: 300px;
+    min-height: 280px;
+    overflow-y: hidden;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    color: #777;
+}
